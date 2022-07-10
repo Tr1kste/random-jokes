@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Quotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Neucha&family=Playfair+Display:ital,wght@1,600&family=Righteous&family=Roboto:wght@400;500;700&display=swap">
+    <script type="module" src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <main class="container main-height flex">
+        <div class="right-column">
+            <h1 class="title-main" data-i18="title">Popular Quotes</h1>
+            <blockquote class="blockquote">
+                <p class="quote"></p>
+                <cite class="author"></cite>
+            </blockquote>
+            <button class="btn-next" type="button" data-i18="btn-next">New Quote →</button>
+        </div>
+        <div class="left-column">
+            <div class="flex-buttons">
+                <p class="lang" data-i18="lang">Change language :</p>
+                <div class="buttons">
+                    <button class="btn" data-lang="ru">RU</button>
+                    <button class="btn active" data-lang="en">EN</button>
+                </div>
+            </div>
+            <img src="./assets/img/img-main.png" class="img-main" alt="Child">
+        </div>
+    </main>
+
+    <footer class="container flex footer-center footer-height">
+        <a class="rss-logo" href="https://rs.school/js-stage0/"></a>
+        <div class="flex footer-center footer-data">
+            <p>©</p>
+            <p>2022</p>
+            <a class="github" href="https://github.com/Tr1kste">GitHub</a>
+        </div>
+    </footer>
+    <div class="rectangle"></div>
+</body>
+
+</html>
